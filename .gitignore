@@ -1,3 +1,5 @@
+# TeX generated files to ignore #
+
 *.aux
 *.glo
 *.idx
