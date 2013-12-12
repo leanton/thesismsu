@@ -1,0 +1,14 @@
+\section{Аналитический расчет взаимодействия четырех диполей}
+Рассмотрим теперь взаимодействие двух диполей без приближения ближнего поля (\ref{eq:f_Taylor}). Так как поляризация первого диполя создает электрическое поле в первом диполе, а поляризация второго диполя --- в первом, и зная соотношение между электрическим полем $ \textbf{E} (r) $ и поляризацией $ \textbf{P} $ через тензор диэлектрической восприимчивости $ \chi $, получим системы линейных однородных алгебраических уравнений относительно поляризации $ \textbf{P} (i) $, где $ i $ --- i-ый диполь:
+\begin{subequations}
+\begin{gather}
+\frac{\textbf{P}(1)}{\alpha} - \chi \textbf{P}(2) = 0, \label{eq:linear_eq_P1} \\
+\chi \textbf{P}(1) -  \frac{\textbf{P}(2)}{\alpha} = 0, \label{eq:linear_eq_P2} 
+\end{gather}
+\end{subequations}
+где $ \alpha $ --- поляризуемость, определяемая формулой (\ref{eq:polarizability_dipole}), а произведение диэлектрической восприимчивости на поляризацию определяется в общем случае формулой
+\begin{multline}
+\chi \textbf{P} = \exp (\imath k r) \Bigg( \left( \frac{P_x}{r} \left( k^2 + \imath \frac{k}{r} - \frac{1}{r^2} \right) \right) \mathbf{e_x} + \left( \frac{P_y}{r} \left( k^2 + \imath \frac{k}{r} - \frac{1}{r^2} \right) \right) \mathbf{e_y} + \\
++ \left( \frac{P_z}{r} \left( - \imath \frac{2 k}{r} + \frac{2}{r^2} \right) \right) \mathbf{e_z} \Bigg).
+\label{eq:2D_susceptibility}
+\end{multline}
